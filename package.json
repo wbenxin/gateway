@@ -1,6 +1,6 @@
 {
   "name": "gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "将内外服务开放到公网",
   "main": "index.js",
   "scripts": {
