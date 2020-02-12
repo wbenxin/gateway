@@ -4,7 +4,10 @@
   "description": "将内外服务开放到公网",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "preversion": "git add .",
+    "postversion": "npm publish",
+    "postpublish": "git push"
   },
   "bin": {
     "gateway": "cli.js"
