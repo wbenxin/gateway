@@ -1,5 +1,5 @@
 {
-  "name": "gateway",
+  "name": "@wbenxin/gateway",
   "version": "1.0.3",
   "description": "将内外服务开放到公网",
   "main": "index.js",
