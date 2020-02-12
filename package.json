@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test.js",
     "postversion": "npm publish",
-    "prepublish": "git add . && git commit -m 'version' && git push"
+    "prepublish": "git add . && git commit -m 'version'"
   },
   "bin": {
     "gateway": "cli.js"
