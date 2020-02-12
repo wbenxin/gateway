@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "postversion": "npm publish",
+    "postversion": "npm publish --access=public",
     "postpublish": "git push && git push --tags"
   },
   "bin": {
