@@ -1,0 +1,29 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "将内外服务开放到公网",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "postversion": "npm publish",
+    "prepublish": "git add . && git commit -m 'version' && git push"
+  },
+  "bin": {
+    "gateway": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbenxin/gateway.git"
+  },
+  "keywords": [],
+  "author": "benxin@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbenxin/gateway/issues"
+  },
+  "homepage": "https://github.com/wbenxin/gateway#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "console-color-mr": "^2.0.1"
+  }
+}
