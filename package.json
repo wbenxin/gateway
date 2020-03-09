@@ -1,6 +1,6 @@
 {
   "name": "@wbenxin/gateway",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "将内外服务开放到公网",
   "main": "index.js",
   "scripts": {
