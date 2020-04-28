@@ -6,9 +6,9 @@ http.createServer((req, res) => {
     res.end('Hello world');
 }).listen(8888);
 
-server(3000, () => {
+server(3000, { key: '123' }, () => {
     // 代理helloword服务器
-    client(3000, 'localhost', { openPort: 8000, localHost: 'localhost', localPort: 8888 });
+    client(3000, 'localhost', { key: '123', openPort: 8000, localHost: 'localhost', localPort: 8888 });
     // 代理wework.sdoil.cn
     client(3000, 'localhost', { openPort: 8080, localHost: 'wework.sdoil.cn', localPort: 80 });
 });
