@@ -9,7 +9,7 @@ program
     .command('server [port]')
     .description('start the service with the specified port number(default to 3300)')
     .option('-k, --key <string>', 'the key value used to generate the encrypted signature')
-    .action(port, options => {
+    .action((port, options) => {
         port = port || 3300;
         server(port, options);
     });
